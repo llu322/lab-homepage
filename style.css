@@ -1,4 +1,47 @@
-/* Week 2 lab, "Dress It Up": add rules here and reload index.html to see them.
-   The checklist wants at least: a type selector, a class selector (with a
-   class="" in your HTML), an id selector (with an id=""), a :hover state, and
-   an @media (max-width: 600px) responsive rule. */
+h1 {
+  color: rgb(165, 25, 25);
+}
+
+.bold {
+   font-weight: bold;
+}
+
+#about {
+  color: rgba(230, 159, 17, 0.925);
+}
+
+a {
+  color: #b22222;
+}
+
+a:hover {
+  background-color: #b22222;
+   color: #fff;
+}
+
+body {
+  background-color: #fff8e7;
+  color: #222;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 24px;
+}
+
+img {
+  border: 4px solid #e69f11;
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+

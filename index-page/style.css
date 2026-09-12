@@ -1,0 +1,28 @@
+/* Add your styles here. */
+h1 {
+   color: teal; 
+}
+
+/*Class selectors */
+.bold {
+      font-weight: bold;
+}
+
+/* Id selector */
+#narwhal {
+   font-style: normal;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+th,
+td {
+   border: 2px solid black;
+   padding: 8px;
+}
+
+td:not(:first-child) {
+   text-align: center;
+}
